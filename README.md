@@ -10,7 +10,7 @@ Il file è facilmente modificabile, portando il tutto a 500 caratteri, per poter
 Con netcat in modalità listen sulla porta 6600, effettuiamo un accesso sulla pagina xss stored, per poter catturare i cookie di sessione.
 # 04 
 Se proviamo ad accedere alla pagina xss stored senza il nostro server in ascolto, giustamente, ci dice che non può stabilire una connessione. 
-N.B. TUTTO QUESTO FUNZIONA ANCHE CON SECURITY LEVEL IMPOSTATO A MEDIUM.
+N.B. TUTTO QUESTO FUNZIONA ANCHE CON SECURITY LEVEL IMPOSTATO A MEDIUM, LO SI PUO' VEDERE NELLO SCREEN 15
 
 # 05 
 Attraverso la query visibile nel campo ID recuperiamo tutte le tabelle presenti sul server.
